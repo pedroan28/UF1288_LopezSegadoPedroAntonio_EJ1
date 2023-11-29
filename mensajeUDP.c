@@ -8,7 +8,8 @@ void pideMensajeUDP (mensajeUDP *mensaje){
     int flag = 0;
 
     printf("Dime la direccion IP: \n");
-    scanf("%s", mensaje->ipOrigen);
+    fgets(mensaje->ipOrigen, MAX, stdin);
+    mensaje->ipOrigen[strlen(mensaje->ipOrigen) - 1] = '\0';
  
     
     printf("Dime la longitud: \n");

@@ -1,9 +1,9 @@
 #ifndef __mensajeUDP_h_
 #define __mensajeUDP_h_
-
+#define MAX 50
 typedef struct 
 {
-    char ipOrigen[50];
+    char ipOrigen[MAX];
     int longitud;
     int numDatagramas;
     float porcenRedundancia;
