@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "mensajeudp.h": "c",
+        "stdio.h": "c"
+    }
+}
